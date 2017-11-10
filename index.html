@@ -12,6 +12,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
+textarea {
+  width: 90%;
+  height: 120px;
+}
 </style>
 <body>
 
@@ -184,15 +188,15 @@ body {font-size:16px;}
     <p>Complete the for below to send a message to the Out and Up team.</p>
     <form action="" method="post" enctype="multipart/form-data">
       <div class="w3-section">
-        <label>Name</label>
+        <span>Name</span>
         <input class="w3-input w3-border" type="text" name="Name" required>
       </div>
       <div class="w3-section">
-        <label>Email</label>
+        <span>Email</span>
         <input class="w3-input w3-border" type="email" name="Email" required>
       </div>
       <div class="w3-section">
-        <label>Message</label>
+        <span>Message</span>
         <textarea id="description" name="description" placeholder="Enter your message here"></textarea>
       </div>
       <button type="submit" value="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
