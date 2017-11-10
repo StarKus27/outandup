@@ -7,7 +7,7 @@ const app = express();
 
 //Routes
 app.get("/", function(request, response) {
-  response.sendFile(path.join(__dirname+"/home.html"));
+  response.sendFile(path.join(__dirname+"/index.html"));
 });
 
 //404
