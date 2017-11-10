@@ -14,6 +14,10 @@ app.get("/logo.ico", function(request, response) {
   response.sendFile(path.join(__dirname+"/out and up.ico"));
 });
 
+app.get("/quiz.swf", function(request, response) {
+  response.sendFile(path.join(__dirname+"/quiz.swf"));
+});
+
 //404
 app.get("*", function(request, response) {
   response.sendFile(path.join(__dirname+"/404.html"));
