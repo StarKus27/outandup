@@ -22,6 +22,10 @@ app.get("/logo.ico", function(request, response) {
   response.sendFile(path.join(__dirname+"/out and up.ico"));
 });
 
+app.get("/OutUpMap.jpg", function(request, response) {
+  response.sendFile(path.join(__dirname+"/OutUpMap.jpg"));
+});
+
 app.get("/quiz.swf", function(request, response) {
   response.sendFile(path.join(__dirname+"/quiz.swf"));
 });
