@@ -35,6 +35,7 @@ app.post("/", urlencodedParser, function(request, response) {
         console.log('Message sent: ' + info.response);
     };
   });
+  response.sendFile(path.join(__dirname+"/index.html"));
 });
 
 app.get("/logo.ico", function(request, response) {
