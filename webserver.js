@@ -34,7 +34,7 @@ app.post("/", urlencodedParser, function(request, response) {
     }else{
         console.log('Message sent: ' + info.response);
     };
-  };
+  });
 });
 
 app.get("/logo.ico", function(request, response) {
