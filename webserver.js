@@ -50,6 +50,10 @@ app.get("/Archery.jpg", function(request, response) {
   response.sendFile(path.join(__dirname+"/Archery.jpg"));
 });
 
+app.get("/Climbing.jpg", function(request, response) {
+  response.sendFile(path.join(__dirname+"/Climbing.jpg"));
+});
+
 app.get("/quiz.swf", function(request, response) {
   response.sendFile(path.join(__dirname+"/quiz.swf"));
 });
