@@ -54,6 +54,10 @@ app.get("/Climbing.jpg", function(request, response) {
   response.sendFile(path.join(__dirname+"/Climbing.jpg"));
 });
 
+app.get("/WaterRafting.jpg", function(request, response) {
+  response.sendFile(path.join(__dirname+"/WaterRafting.jpg"));
+});
+
 app.get("/quiz.swf", function(request, response) {
   response.sendFile(path.join(__dirname+"/quiz.swf"));
 });
