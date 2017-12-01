@@ -62,8 +62,8 @@ app.get("/Tennis.jpg", function(request, response) {
   response.sendFile(path.join(__dirname+"/Tennis.jpg"));
 });
 
-app.get("/Rock Climbing.jpg", function(request, response) {
-  response.sendFile(path.join(__dirname+"/Rock Climbing.jpg"));
+app.get("/RockClimbing.jpg", function(request, response) {
+  response.sendFile(path.join(__dirname+"/RockClimbing.jpg"));
 });
 
 app.get("/Assault.jpg", function(request, response) {
