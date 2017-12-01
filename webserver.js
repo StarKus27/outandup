@@ -46,6 +46,10 @@ app.get("/OutUpMap.jpg", function(request, response) {
   response.sendFile(path.join(__dirname+"/OutUpMap.jpg"));
 });
 
+app.get("/Archery.jpg", function(request, response) {
+  response.sendFile(path.join(__dirname+"/Archery.jpg"));
+});
+
 app.get("/quiz.swf", function(request, response) {
   response.sendFile(path.join(__dirname+"/quiz.swf"));
 });
