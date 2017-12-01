@@ -58,6 +58,18 @@ app.get("/WaterRafting.jpg", function(request, response) {
   response.sendFile(path.join(__dirname+"/WaterRafting.jpg"));
 });
 
+app.get("/Tennis.jpg", function(request, response) {
+  response.sendFile(path.join(__dirname+"/Tennis.jpg"));
+});
+
+app.get("/Rock Climbing.jpg", function(request, response) {
+  response.sendFile(path.join(__dirname+"/Rock Climbing.jpg"));
+});
+
+app.get("/Assault.jpg", function(request, response) {
+  response.sendFile(path.join(__dirname+"/Assault.jpg"));
+});
+
 app.get("/quiz.swf", function(request, response) {
   response.sendFile(path.join(__dirname+"/quiz.swf"));
 });
